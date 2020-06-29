@@ -1,0 +1,227 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  padding-top: 70px;
+}
+
+/*Navbar section*/
+#profile {
+  display: none;
+}
+
+/*Profile section*/
+.name {
+  text-decoration: underline solid #208a86;
+  font-size: 45px;
+}
+
+.email {
+  color: #868e96;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.introduction {
+  font-size: 25px;
+}
+
+.icons {
+  margin-top: 40px;
+}
+
+.fab,
+.fas {
+  font-size: 50px;
+  color: #868e96;
+  margin-right: 25px;
+}
+
+/*Experience section*/
+.experience-header {
+  text-decoration: underline solid #e75e56;
+  font-size: 45px;
+}
+
+.projects-header {
+  text-decoration: underline solid #208a86;
+  font-size: 45px;
+}
+
+.timeline {
+  position: relative;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  width: 2px;
+  background-color: #e75e56;
+  height: 100%;
+}
+
+.timeline ul {
+  margin: 0;
+  padding: 0;
+}
+
+.timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 100%;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.timeline ul li:before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #e75e56;
+  box-shadow: 0 0 0 4px rgb(231, 94, 86, 0.2);
+  left: -6px;
+  top: 20px;
+}
+
+.timeline ul li .time {
+  background-color: #208a86;
+  color: #fff;
+  padding: 8px 16px;
+  width: 75%;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 0 0 0 4px rgb(32, 138, 134, 0.2);
+  margin-top: 20px;
+}
+
+.timeline ul li h4 {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.timeline ul li p {
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.timeline ul li .title {
+  padding: 0;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.timeline ul li p .lang {
+  box-shadow: 0 0 0 4px rgb(231, 94, 86, 0.2);
+  border-radius: 18px;
+  padding: 2px 7px;
+}
+
+/*Projects section*/
+#projects > a > img{
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    padding-top: 0px;
+  }
+
+  /*Navbar section*/
+  .navbar {
+    height: 100%;
+    width: 25%;
+  }
+
+  #navbarContent > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #navbarBrand {
+    display: none;
+  }
+
+  .nav-item {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  /*Profile section*/
+  #profile {
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .main {
+    margin-left: 25%;
+    width: 75%;
+    height: 100%;
+    padding-left: 40px;
+  }
+
+  /*About section*/
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+  }
+
+  .name {
+    text-decoration: underline solid #208a86;
+    font-size: 60px;
+  }
+
+  /*Experience section*/
+  #experience {
+    height: 800px;
+    padding-top: 70px;
+  }
+
+  .experience-header {
+    text-decoration: underline solid #e75e56;
+    font-size: 60px;
+  }
+
+  .timeline ul li {
+    list-style: none;
+    position: relative;
+    width: 75%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+  }
+
+  .timeline ul li .time {
+    background-color: #208a86;
+    color: #fff;
+    padding: 8px 16px;
+    width: 50%;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 0 0 4px rgb(32, 138, 134, 0.2);
+  }
+
+  /*Projects section*/
+  #projects {
+    height: 800px;
+    padding-top: 70px;
+  }
+
+  .projects-header {
+    text-decoration: underline solid #208a86;
+    font-size: 60px;
+  }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title></>Yeonha Park></title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a id="navbarBrand" class="navbar-brand" href="#">Yeonha</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto">
+          <img id="profile" src="img/circle-cropped.png" class="mx-auto" alt="profile picture of Yeonha Park">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+   
+    <!--Section1: About-->
+    <div class="container sections main">
+        <div id="about">
+            <h1 class="name display-3">Yeonha Park</h1>
+            <a href="mailto:yeonha.park@dal.ca" class="lead email">yeonha.park@dal.ca</a>
+            <p class="introduction">Eager computer science student 
+              at Dalhousie University with developing 
+              experience and passion for database management,
+               web development, and collaboration.</p>
+            <div class="icons">
+              <a href="https://github.com/yn744616" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/yeonha-park" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="mailto:yeonha.park@dal.ca"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    
+        <hr>
+        <!--Section2: Experience-->
+        <div id="experience">
+            <h1 class="display-3 experience-header">Experience</h1>
+            <div class="timeline">
+              <ul>
+                <li class="left">
+                  <div class="content">
+                    <h4>Applied Energy Research Lab, NSCC</h4>
+                    <p class="title">Web Interface/Database Developer</p>
+                    <p>- Implemented APIs and fixed bugs to manage large amount of solar data with <span class="lang">Node.js</span> and <span class="lang">MongoDB</span></p>
+                    <p>- Developed a user-friendly data portal with advanced search options to optimize results</p>
+                    <p>- Developed and managed a login/signup system with <span class="lang">PHP</span> and <span class="lang">MySQL</span></p>
+                  </div>
+                  <div class="time">December 2019 - Present</div>
+                  <hr>
+                </li>
+               
+                <li class="right">
+                  <div class="content">
+                    <h4>Sushi Nami, Talay Thai, The Red Stag</h4>
+                    <p class="title">Server</p>
+                    <p>- Provided prompt and friendly customer service to guests and visitors</p>
+                    <p>- Communicated effectively with kitchen team and management to deliver an optimal guest experience</p>
+                  </div>
+                  <div class="time">April 2018 - December 2019</div>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <hr>
+        <!--Section3: Projects-->
+        <div id="projects">
+          <h1 class="display-3 projects-header">Projects</h1>
+          <p class="lead pb-5">Click on images to see live demo of each projects!</p>
+
+          <!--First project-->
+          <h4>Sort Visualizer</h4>
+          <a class="mb-5 project-img" href="https://yn744616.github.io/sort-visualizer/" target="_blank"><img src="img/sortvisualizer.png" alt=""></a>
+
+          <!--Second project-->
+          <h4>Signup Page</h4>
+          <a class="mb-5 project-img" href="https://yn744616.github.io/signup/" target="_blank"><img src="img/signup.png" alt=""></a>
+
+          <!--Third project-->
+          <h4>Todo List</h4>
+          <a class="mb-5 project-img" href="https://yn744616.github.io/yeonha-todos/" target="_blank"><img src="img/todos.png" alt=""></a>
+        </div>
+    </div>
+    
+
+    <!--Bootstrap Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
